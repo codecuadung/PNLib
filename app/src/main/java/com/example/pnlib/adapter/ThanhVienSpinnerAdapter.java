@@ -42,6 +42,7 @@ public class ThanhVienSpinnerAdapter extends ArrayAdapter<ThanhVien> {
             tvMaTV.setText(item.getMaTV() + ". ");
             tvTenTV = v.findViewById(R.id.tvTenTVSp);
             tvTenTV.setText(item.getHoTen());
+            String test = "day la du lieu moi";
         }
         return v;
     }
